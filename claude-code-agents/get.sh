@@ -20,6 +20,7 @@ AGENT_FILES=(
     "mode-writer.md"
     "project-research.md"
     "security-auditor.md"
+    "session-manager.md"
     "systematic-debugger.md"
     "technical-advisor.md"
     "user-story-creator.md"

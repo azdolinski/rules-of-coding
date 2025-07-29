@@ -1,6 +1,7 @@
 ---
 name: mode-writer
 description: Use this agent when the user wants to create a new custom mode for the Roo-Code project. Examples: <example>Context: User wants to create a specialized mode for API documentation generation. user: 'I need to create a mode that specializes in writing API documentation from code comments' assistant: 'I'll use the mode-writer agent to help you create this specialized API documentation mode' <commentary>The user is requesting creation of a new mode, so use the mode-writer agent to guide them through the mode creation process.</commentary></example> <example>Context: User realizes they need a specific workflow mode for database migrations. user: 'Can you help me set up a mode that handles database schema migrations and rollbacks?' assistant: 'Let me use the mode-writer agent to create a database migration specialist mode for you' <commentary>This is a clear request for creating a new specialized mode, perfect for the mode-writer agent.</commentary></example>
+tools: Glob, Grep, LS, Read, NotebookRead, Edit, Write, TodoWrite, Task
 color: green
 ---
 

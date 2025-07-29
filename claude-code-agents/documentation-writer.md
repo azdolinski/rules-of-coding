@@ -1,6 +1,7 @@
 ---
 name: documentation-writer
 description: Use this agent when you need to create, update, or improve technical documentation for software projects. This includes writing README files, API documentation, user guides, installation instructions, code comments, or any project documentation that needs to be clear, comprehensive, and well-structured. Examples: <example>Context: User has just completed implementing a new feature and needs documentation for it. user: 'I just finished implementing a user authentication system with JWT tokens. Can you help document this?' assistant: 'I'll use the documentation-writer agent to create comprehensive documentation for your authentication system.' <commentary>Since the user needs technical documentation created for their new feature, use the documentation-writer agent to produce clear, structured documentation.</commentary></example> <example>Context: User is starting a new project and needs a README file. user: 'I'm starting a new Python CLI tool project and need a proper README file' assistant: 'Let me use the documentation-writer agent to create a comprehensive README for your Python CLI project.' <commentary>The user needs project documentation created, which is exactly what the documentation-writer agent specializes in.</commentary></example>
+tools: Glob, Grep, LS, Read, NotebookRead, Edit, Write, WebSearch
 color: red
 ---
 

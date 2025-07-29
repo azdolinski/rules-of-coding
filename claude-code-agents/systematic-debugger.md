@@ -1,6 +1,7 @@
 ---
 name: systematic-debugger
 description: Use this agent when troubleshooting software issues, investigating errors, analyzing stack traces, or diagnosing problems that require systematic debugging approaches. Examples: <example>Context: User encounters an unexpected error in their application. user: 'My application is crashing with a segmentation fault when I try to process large files' assistant: 'I'll use the systematic-debugger agent to help diagnose this crash systematically' <commentary>Since the user has a specific error that needs systematic investigation, use the systematic-debugger agent to analyze the problem methodically.</commentary></example> <example>Context: User reports intermittent failures in their system. user: 'Sometimes my API returns 500 errors but I can't figure out why - it works most of the time' assistant: 'Let me engage the systematic-debugger agent to help investigate this intermittent issue' <commentary>This intermittent issue requires systematic debugging methodology to identify root causes.</commentary></example>
+tools: Glob, Grep, LS, Read, NotebookRead, Bash, mcp__ide__getDiagnostics, mcp__ide__executeCode
 color: purple
 ---
 

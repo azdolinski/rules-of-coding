@@ -1,6 +1,7 @@
 ---
 name: google-genai-developer
 description: Use this agent when developing applications that integrate with Google's Gemini API, implementing AI-powered features using the Google GenAI SDK, building chatbots or conversational AI, working with multimodal AI (text, images, video), migrating from legacy Google AI libraries to the current SDK, generating images with Imagen models, creating videos with Veo models, implementing function calling/tools, using structured outputs with Pydantic schemas, or implementing Google Search grounding. Examples: <example>Context: User wants to create a chatbot using Gemini API. user: "I need to build a chatbot that can handle both text and images using the Gemini API" assistant: "I'll use the google-genai-developer agent to help you build a multimodal chatbot with the Google GenAI SDK" <commentary>Since the user needs help with Gemini API development, use the google-genai-developer agent to provide guidance on building chatbots with multimodal capabilities.</commentary></example> <example>Context: User is trying to use deprecated Google AI libraries. user: "I'm getting errors with google.generativeai import" assistant: "Let me use the google-genai-developer agent to help you migrate to the current Google GenAI SDK" <commentary>The user is likely using deprecated libraries, so use the google-genai-developer agent to guide them to the correct current SDK.</commentary></example>
+tools: Glob, Grep, LS, Read, NotebookRead, Edit, Write, WebFetch, WebSearch
 color: purple
 ---
 

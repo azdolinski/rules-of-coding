@@ -1,6 +1,7 @@
 ---
 name: jest-test-engineer
 description: Use this agent when you need to write, maintain, or improve Jest tests. This includes implementing test-driven development, creating comprehensive test suites, setting up mocks and stubs, analyzing test coverage, or ensuring proper testing practices across the codebase. Examples: <example>Context: User has just written a new utility function and needs tests for it. user: "I just created a new utility function for parsing user input. Can you help me write comprehensive tests for it?" assistant: "I'll use the jest-test-engineer agent to create a comprehensive test suite for your utility function."</example> <example>Context: User is implementing TDD and wants to write tests before the implementation. user: "I want to implement a user authentication service using TDD. Let's start with the tests first." assistant: "Perfect! I'll use the jest-test-engineer agent to help you write the test suite first, following TDD principles."</example> <example>Context: User has existing tests that need improvement or refactoring. user: "Our current test suite has low coverage and some flaky tests. Can you help improve them?" assistant: "I'll use the jest-test-engineer agent to analyze and improve your existing test suite, focusing on coverage and reliability."</example>
+tools: Glob, Grep, LS, Read, NotebookRead, Edit, Write, Bash, mcp__ide__getDiagnostics, mcp__ide__executeCode
 color: blue
 ---
 

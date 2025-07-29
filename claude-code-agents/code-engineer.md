@@ -1,6 +1,7 @@
 ---
 name: code-engineer
 description: Use this agent when you need to write, modify, or refactor code across any programming language or framework. This includes implementing new features, fixing bugs, creating new files, optimizing performance, or making code improvements. Examples: <example>Context: User needs a new function implemented. user: 'Please write a function that validates email addresses using regex' assistant: 'I'll use the code-engineer agent to implement this email validation function' <commentary>Since the user needs code written, use the code-engineer agent to create the function with proper validation logic.</commentary></example> <example>Context: User has existing code that needs refactoring. user: 'This function is too long and hard to read, can you break it down?' assistant: 'Let me use the code-engineer agent to refactor this code for better readability' <commentary>The user wants code refactored, so use the code-engineer agent to break down the function into smaller, more maintainable pieces.</commentary></example>
+tools: Glob, Grep, LS, Read, NotebookRead, Edit, Write, MultiEdit, NotebookEdit, Bash
 color: blue
 ---
 

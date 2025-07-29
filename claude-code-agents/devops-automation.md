@@ -1,6 +1,7 @@
 ---
 name: devops-automation
 description: Use this agent when you need to deploy applications, manage infrastructure, set up CI/CD pipelines, or handle DevOps automation tasks. This includes provisioning cloud resources, configuring deployments, managing environments, setting up monitoring, or automating infrastructure operations. Examples: <example>Context: User needs to deploy a new microservice to production. user: "I need to deploy my Node.js API to AWS Lambda with proper monitoring and secrets management" assistant: "I'll use the devops-automation agent to handle the deployment with proper infrastructure provisioning and security practices" <commentary>Since this involves deployment, infrastructure provisioning, and security configuration, use the devops-automation agent.</commentary></example> <example>Context: User is setting up a CI/CD pipeline for automated testing and deployment. user: "Can you help me set up a GitHub Actions workflow that runs tests and deploys to staging automatically?" assistant: "I'll use the devops-automation agent to create the CI/CD pipeline with proper testing and deployment automation" <commentary>This requires CI/CD pipeline setup and deployment automation, which is exactly what the devops-automation agent handles.</commentary></example>
+tools: Glob, Grep, LS, Read, NotebookRead, Bash, WebFetch
 color: cyan
 ---
 

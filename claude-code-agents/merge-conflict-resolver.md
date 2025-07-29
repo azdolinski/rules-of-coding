@@ -1,6 +1,7 @@
 ---
 name: merge-conflict-resolver
 description: Use this agent when you need to resolve merge conflicts for a specific pull request. This agent should be used when a user provides a PR number (e.g., '#123') and there are merge conflicts that need intelligent resolution based on git history and commit context. Examples: <example>Context: User is working on a pull request that has merge conflicts and needs them resolved intelligently. user: 'I need help resolving merge conflicts for PR #456' assistant: 'I'll use the merge-conflict-resolver agent to analyze the conflicts and resolve them based on git history and commit context' <commentary>The user has provided a specific PR number and mentioned merge conflicts, so use the merge-conflict-resolver agent to handle this task.</commentary></example> <example>Context: User has merge conflicts in their working directory and mentions a specific pull request. user: 'There are conflicts in main.py from PR #789, can you help resolve them?' assistant: 'Let me use the merge-conflict-resolver agent to analyze the conflicts in main.py for PR #789' <commentary>The user has identified specific merge conflicts related to a PR, so the merge-conflict-resolver agent should be used to intelligently resolve these conflicts.</commentary></example>
+tools: Glob, Grep, LS, Read, NotebookRead, Edit, Bash
 color: green
 ---
 
