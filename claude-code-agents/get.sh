@@ -1,3 +1,8 @@
+#
+#
+# curl -s https://raw.githubusercontent.com/azdolinski/rules-of-coding/refs/heads/main/claude-code-agents/get.sh | bash
+#
+#
 REMOTE_GIT_URL="https://raw.githubusercontent.com/azdolinski/rules-of-coding/refs/heads/main/claude-code-agents/"
 LOCAL_DIR="./claude-code-agents"
 mkdir -p "$LOCAL_DIR"
