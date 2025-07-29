@@ -5,6 +5,7 @@ AGENT_FILES=(
     "architect-planner.md"
     "code-engineer.md"
     "coding-teacher.md"
+    "context-condenser.md"
     "debug-specialist.md"
     "devops-automation.md"
     "documentation-writer.md"
