@@ -2,6 +2,7 @@
 name: meta-agent-creator
 description: Expert in creating specialized AI agents with well-crafted system prompts. Use PROACTIVELY when user needs to create new agents or improve or check / test existing agent prompts. MUST BE USED for agent design tasks.
 tools: Read, Write, Glob
+model: sonet
 ---
 
 # Agent: Meta Agent Creator

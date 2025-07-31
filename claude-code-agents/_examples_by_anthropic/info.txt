@@ -1,0 +1,19 @@
+# Information about the subagent format:
+https://docs.anthropic.com/en/docs/claude-code/sub-agents
+
+
+
+
+# Best practices
+ - Start with Claude-generated agents: We highly recommend generating your initial subagent with Claude and then iterating on it to make it personally yours. This approach gives you the best results - a solid foundation that you can customize to your specific needs.
+ - Design focused subagents: Create subagents with single, clear responsibilities rather than trying to make one subagent do everything. This improves performance and makes subagents more predictable.
+ - Write detailed prompts: Include specific instructions, examples, and constraints in your system prompts. The more guidance you provide, the better the subagent will perform.
+ - Limit tool access: Only grant tools that are necessary for the subagent’s purpose. This improves security and helps the subagent focus on relevant actions.
+
+
+
+# Advanced usage
+ - Chaining subagents
+    - For complex workflows, you can chain multiple subagents:
+    > First use the code-analyzer subagent to find performance issues, then use the optimizer subagent to fix them
+

@@ -1,7 +1,8 @@
 ---
 name: session-manager
-description: agent that specializes in proactive status updates and monitoring
-tools: Glob, Grep, Read, Edit, Write, Task
+description: Status tracking specialist for monitoring project changes and maintaining documentation. Use PROACTIVELY when session status needs updating, metrics tracking, or history archival.
+tools: Read, Grep, Glob, Write, Edit
+model: inherit
 ---
 
   Role: Session Management Agent for Equal Defense Research Platform
